@@ -1,0 +1,93 @@
+body {
+  font-size: 28px;
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218, 23%, 16%);
+}
+.adviceCard {
+  /* background-color: hsl(193, 38%, 86%); */
+  /* background-color: hsl(150, 100%, 66%); */
+  width: 500px;
+  height: 380px;
+  color: hsl(217, 19%, 38%);
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+  /* background-color: hsl(218, 23%, 16%); */
+  margin: auto;
+  margin-top: 100px;
+}
+.adviceText {
+  height: 200px;
+  padding: 10px 25px;
+  color: hsl(193, 38%, 86%);
+}
+.adviceID {
+  color: hsl(150, 100%, 66%);
+  font-size: 14px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nextAdvice {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: hsl(150, 100%, 66%);
+  margin: 0px auto;
+}
+.nextAdvice img {
+  padding-left: 13px;
+  padding-top: 13px;
+}
+.dividerDesktop img {
+  margin: 0px 30px;
+  margin-top: -20px !important;
+}
+
+@media (min-width: 375px) {
+  .dividerMobile {
+    display: none;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    font-size: 20px;
+  }
+  .adviceCard {
+    width: 300px;
+    height: 300px;
+    color: hsl(217, 19%, 38%);
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    margin: auto;
+    margin-top: 100px;
+  }
+  .adviceText {
+    height: 150px;
+    padding: 10px 25px;
+    color: hsl(193, 38%, 86%);
+  }
+  .adviceID {
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .nextAdvice {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    margin: 0px auto;
+  }
+  .nextAdvice img {
+    padding-left: 13px;
+    padding-top: 13px;
+  }
+  .dividerMobile img {
+    margin: 0px 15px;
+    width: 90%;
+  }
+  .dividerDesktop {
+    display: none;
+  }
+}
